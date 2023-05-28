@@ -398,10 +398,10 @@ if config_dict['SET_BOT_COMMANDS']:
 
 
 def main():
-    try:
-        bot.sendMessage(chat_id=config_dict['OWNER_ID'], text="I am now online 🌐")
-    except:
-        pass
+#     try:
+#         bot.sendMessage(chat_id=config_dict['OWNER_ID'], text="I am now online 🌐")
+#     except:
+#         pass
         
     if config_dict['WALLCRAFT_CATEGORY']:
         for page in range(1,20):
